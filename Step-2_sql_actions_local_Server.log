@@ -1,0 +1,2149 @@
+[1, 18:35:42] show databases: Running...
+[1, 18:35:42] show databases: Fetching...
+[1, 18:35:42] show databases: 4 row(s) returned
+[1, 10:36:46] show databases: Running...
+[1, 10:36:46] show databases: Fetching...
+[1, 10:36:46] show databases: 4 row(s) returned
+[1, 10:52:17] Apply changes to deneme: Applying object changes ...
+[1, 10:52:37] Applying changes to deneme...: 
+[1, 10:52:37] : Changes applied to deneme
+[1, 10:52:38] Apply changes to deneme: Changes applied
+[2, 10:54:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[2, 10:54:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[3, 10:54:45] SHOW DATABASES: Executing 
+[3, 10:54:45] SHOW DATABASES: OK
+[4, 10:55:04] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[4, 10:55:04] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[5, 10:56:14]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` double): Executing 
+[5, 10:56:14]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` double): OK
+[6, 10:56:14] PREPARE stmt FROM 'INSERT INTO `deneme`.`dene` (`iso_code`,`continent`,`location`,`population_density`,`median_age`,`aged_65_older`,`aged_70_older`,`gdp_per_capita`,`cardiovasc_death_rate`,`diabetes_prevalence`,`female_smokers`,`male_smokers`,`handwashing_facilities`,`hospital_beds_per_thousand`,`life_expectancy`,`human_development_index`,`population`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)': Executing 
+[6, 10:56:14] PREPARE stmt FROM 'INSERT INTO `deneme`.`dene` (`iso_code`,`continent`,`location`,`population_density`,`median_age`,`aged_65_older`,`aged_70_older`,`gdp_per_capita`,`cardiovasc_death_rate`,`diabetes_prevalence`,`female_smokers`,`male_smokers`,`handwashing_facilities`,`hospital_beds_per_thousand`,`life_expectancy`,`human_development_index`,`population`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)': OK
+[7, 10:56:17] DEALLOCATE PREPARE stmt: Executing 
+[7, 10:56:17] DEALLOCATE PREPARE stmt: OK
+[8, 10:56:28]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` bigint): Executing 
+[8, 10:56:28]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` bigint): Error Code: 1050
+Table 'dene' already exists
+[9, 10:56:28]  DROP TABLE `deneme`.`dene`: Executing 
+[9, 10:56:28]  DROP TABLE `deneme`.`dene`: OK
+[10, 10:56:28]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` bigint): Executing 
+[10, 10:56:28]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` bigint): OK
+[11, 10:56:28] PREPARE stmt FROM 'INSERT INTO `deneme`.`dene` (`iso_code`,`continent`,`location`,`population_density`,`median_age`,`aged_65_older`,`aged_70_older`,`gdp_per_capita`,`cardiovasc_death_rate`,`diabetes_prevalence`,`female_smokers`,`male_smokers`,`handwashing_facilities`,`hospital_beds_per_thousand`,`life_expectancy`,`human_development_index`,`population`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)': Executing 
+[11, 10:56:28] PREPARE stmt FROM 'INSERT INTO `deneme`.`dene` (`iso_code`,`continent`,`location`,`population_density`,`median_age`,`aged_65_older`,`aged_70_older`,`gdp_per_capita`,`cardiovasc_death_rate`,`diabetes_prevalence`,`female_smokers`,`male_smokers`,`handwashing_facilities`,`hospital_beds_per_thousand`,`life_expectancy`,`human_development_index`,`population`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)': OK
+[12, 10:56:31] DEALLOCATE PREPARE stmt: Executing 
+[12, 10:56:31] DEALLOCATE PREPARE stmt: OK
+[13, 10:56:48]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` bigint): Executing 
+[13, 10:56:48]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` bigint): Error Code: 1050
+Table 'dene' already exists
+[14, 10:56:48]  DROP TABLE `deneme`.`dene`: Executing 
+[14, 10:56:48]  DROP TABLE `deneme`.`dene`: OK
+[15, 10:56:48]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` bigint): Executing 
+[15, 10:56:48]  CREATE TABLE `deneme`.`dene` (`iso_code` text, `continent` text, `location` text, `population_density` bigint, `median_age` bigint, `aged_65_older` bigint, `aged_70_older` bigint, `gdp_per_capita` bigint, `cardiovasc_death_rate` bigint, `diabetes_prevalence` bigint, `female_smokers` bigint, `male_smokers` bigint, `handwashing_facilities` bigint, `hospital_beds_per_thousand` bigint, `life_expectancy` bigint, `human_development_index` bigint, `population` bigint): OK
+[16, 10:56:48] PREPARE stmt FROM 'INSERT INTO `deneme`.`dene` (`iso_code`,`continent`,`location`,`population_density`,`median_age`,`aged_65_older`,`aged_70_older`,`gdp_per_capita`,`cardiovasc_death_rate`,`diabetes_prevalence`,`female_smokers`,`male_smokers`,`handwashing_facilities`,`hospital_beds_per_thousand`,`life_expectancy`,`human_development_index`,`population`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)': Executing 
+[16, 10:56:48] PREPARE stmt FROM 'INSERT INTO `deneme`.`dene` (`iso_code`,`continent`,`location`,`population_density`,`median_age`,`aged_65_older`,`aged_70_older`,`gdp_per_capita`,`cardiovasc_death_rate`,`diabetes_prevalence`,`female_smokers`,`male_smokers`,`handwashing_facilities`,`hospital_beds_per_thousand`,`life_expectancy`,`human_development_index`,`population`) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)': OK
+[17, 10:56:50] DEALLOCATE PREPARE stmt: Executing 
+[17, 10:56:50] DEALLOCATE PREPARE stmt: OK
+[18, 10:57:19] show databases: Running...
+[18, 10:57:19] show databases: Fetching...
+[18, 10:57:19] show databases: 5 row(s) returned
+[19, 10:57:31] SELECT * FROM deneme
+LIMIT 0, 1000
+: Running...
+[19, 10:57:31] SELECT * FROM deneme
+LIMIT 0, 1000
+: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[20, 10:57:46] show databases: Running...
+[20, 10:57:46] show databases: Fetching...
+[20, 10:57:46] show databases: 5 row(s) returned
+[1, 16:38:17] show databases: Running...
+[1, 16:38:17] show databases: Fetching...
+[1, 16:38:17] show databases: 5 row(s) returned
+[2, 16:38:39] CREATE TABLE students
+(sid INTEGER,
+name CHAR(50),
+login CHAR(50),
+age INTEGER,
+gpa real): Running...
+[2, 16:38:39] CREATE TABLE students
+(sid INTEGER,
+name CHAR(50),
+login CHAR(50),
+age INTEGER,
+gpa real): Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[1, 16:41:59] show databases: Running...
+[1, 16:41:59] show databases: Fetching...
+[1, 16:41:59] show databases: 5 row(s) returned
+[1, 16:42:34] show databases: Running...
+[1, 16:42:34] show databases: Fetching...
+[1, 16:42:34] show databases: 5 row(s) returned
+[2, 16:43:13] select * from deneme.dene
+LIMIT 0, 1000
+: Running...
+[2, 16:43:13] select * from deneme.dene
+LIMIT 0, 1000
+: Fetching...
+[2, 16:43:13] select * from deneme.dene
+LIMIT 0, 1000
+: 55 row(s) returned
+[3, 16:43:30] CREATE TABLE students
+(sid INTEGER,
+name CHAR(50),
+login CHAR(50),
+age INTEGER,
+gpa real): Running...
+[3, 16:43:30] CREATE TABLE students
+(sid INTEGER,
+name CHAR(50),
+login CHAR(50),
+age INTEGER,
+gpa real): Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[4, 16:44:51] CREATE TABLE students
+(sid INTEGER,
+name CHAR(50),
+login CHAR(50),
+age INTEGER,
+gpa real): Running...
+[4, 16:44:52] CREATE TABLE students
+(sid INTEGER,
+name CHAR(50),
+login CHAR(50),
+age INTEGER,
+gpa real): 0 row(s) affected
+[5, 16:45:47] INSERT INTO Students (sid, name, login, age, gpa) VALUES (53688, 'Shero', 'shero@cs', 18, 3.2): Running...
+[5, 16:45:47] INSERT INTO Students (sid, name, login, age, gpa) VALUES (53688, 'Shero', 'shero@cs', 18, 3.2): 1 row(s) affected
+[6, 16:46:17] SeLECT * FROM students
+LIMIT 0, 1000
+: Running...
+[6, 16:46:17] SeLECT * FROM students
+LIMIT 0, 1000
+: Fetching...
+[6, 16:46:17] SeLECT * FROM students
+LIMIT 0, 1000
+: 1 row(s) returned
+[7, 16:46:53] INSERT INTO Students (sid, name, login, age, gpa) VALUES (53688, 'Shero', 'shero@cs', '18-age', 3.2): Running...
+[7, 16:46:53] INSERT INTO Students (sid, name, login, age, gpa) VALUES (53688, 'Shero', 'shero@cs', '18-age', 3.2): Error Code: 1265. Data truncated for column 'age' at row 1
+[8, 16:47:14] SELECT * FROM students
+LIMIT 0, 1000
+: Running...
+[8, 16:47:14] SELECT * FROM students
+LIMIT 0, 1000
+: Fetching...
+[8, 16:47:14] SELECT * FROM students
+LIMIT 0, 1000
+: 1 row(s) returned
+[9, 16:48:18] SELECT * FROM students s WHERE s.age=18
+LIMIT 0, 1000
+: Running...
+[9, 16:48:18] SELECT * FROM students s WHERE s.age=18
+LIMIT 0, 1000
+: Fetching...
+[9, 16:48:18] SELECT * FROM students s WHERE s.age=18
+LIMIT 0, 1000
+: 1 row(s) returned
+[10, 16:50:09] DROP table students: Running...
+[10, 16:50:09] DROP table students: 0 row(s) affected
+[11, 16:50:44] CREATE TABLE students
+(sid INTEGER,
+name CHAR(50),
+login CHAR(50),
+age INTEGER,
+gpa real,
+PRIMARY KEY(sid)
+): Running...
+[11, 16:50:44] CREATE TABLE students
+(sid INTEGER,
+name CHAR(50),
+login CHAR(50),
+age INTEGER,
+gpa real,
+PRIMARY KEY(sid)
+): 0 row(s) affected
+[1, 17:25:49] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE CASCADE
+): Running...
+[1, 17:25:49] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE CASCADE
+): Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[2, 17:26:01] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE CASCADE
+): Running...
+[2, 17:26:01] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE CASCADE
+): Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[3, 17:26:14] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE CASCADE
+): Running...
+[3, 17:26:14] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE CASCADE
+): Error Code: 1239. Incorrect foreign key definition for 'foreign key without name': Key reference and table reference don't match
+[4, 17:45:16] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE NO ACTION
+): Running...
+[4, 17:45:16] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE NO ACTION
+): Error Code: 1239. Incorrect foreign key definition for 'foreign key without name': Key reference and table reference don't match
+[5, 17:45:25] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE NO ACTION
+): Running...
+[5, 17:45:25] CREATE TABLE DEMOCRACIES(
+ISO_Code CHAR(11) NOT NULL,
+D_ID INTEGER,
+Year_ DATE,
+DELIBERATIVE_DEM DECIMAL,
+LIBERAL_DEM DECIMAL,
+ELECTORAL_DEM DECIMAL,
+EGALATARIAN_DEM DECIMAL,
+PARTICIPIARY_DEM DECIMAL,
+PRIMARY KEY(ISO_CODE, D_ID),
+FOREIGN KEY (ISO_CODE) REFERENCES COUNTRY ON DELETE NO ACTION
+): Error Code: 1239. Incorrect foreign key definition for 'foreign key without name': Key reference and table reference don't match
+[1, 23:15:26] CREATE TABLE DEMOCRACIES(
+d_id INTEGER auto_increment PRIMARY KEY,
+year_ DATE,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL
+): Running...
+[1, 23:15:26] CREATE TABLE DEMOCRACIES(
+d_id INTEGER auto_increment PRIMARY KEY,
+year_ DATE,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL
+): 0 row(s) affected
+[2, 23:15:26] CREATE TABLE GOVERNED_BY(
+iso_code CHAR(11) NOT NULL,
+d_id INTEGER,
+PRIMARY KEY(iso_code, d_id),
+FOREIGN KEY (iso_code) REFERENCES COUNTRY (iso_code) ON DELETE NO ACTION,
+FOREIGN KEY (d_id) REFERENCES DEMOCRACIES (d_id) ON DELETE NO ACTION
+): Running...
+[2, 23:15:26] CREATE TABLE GOVERNED_BY(
+iso_code CHAR(11) NOT NULL,
+d_id INTEGER,
+PRIMARY KEY(iso_code, d_id),
+FOREIGN KEY (iso_code) REFERENCES COUNTRY (iso_code) ON DELETE NO ACTION,
+FOREIGN KEY (d_id) REFERENCES DEMOCRACIES (d_id) ON DELETE NO ACTION
+): Error Code: 1824. Failed to open the referenced table 'country'
+[3, 23:16:58] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[3, 23:16:58] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[4, 23:16:58] SHOW DATABASES: Executing 
+[4, 23:16:58] SHOW DATABASES: OK
+[5, 23:17:03] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[5, 23:17:03] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[6, 23:17:03] SHOW COLUMNS FROM `deneme`.`democracies`: Executing 
+[6, 23:17:03] SHOW COLUMNS FROM `deneme`.`democracies`: OK
+[7, 23:18:02] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`d_id`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[7, 23:18:02] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`d_id`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[8, 23:18:24] DEALLOCATE PREPARE stmt: Executing 
+[8, 23:18:24] DEALLOCATE PREPARE stmt: OK
+[9, 23:19:39] DROP TABLE `deneme`.`democracies`: Running...
+[9, 23:19:39] DROP TABLE `deneme`.`democracies`: 0 row(s) affected
+[10, 23:19:42] CREATE TABLE DEMOCRACIES(
+d_id INTEGER auto_increment PRIMARY KEY,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL
+): Running...
+[10, 23:19:42] CREATE TABLE DEMOCRACIES(
+d_id INTEGER auto_increment PRIMARY KEY,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL
+): 0 row(s) affected
+[11, 23:20:02] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[11, 23:20:02] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[12, 23:20:02] SHOW DATABASES: Executing 
+[12, 23:20:02] SHOW DATABASES: OK
+[13, 23:20:03] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[13, 23:20:03] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[14, 23:20:03] SHOW COLUMNS FROM `deneme`.`democracies`: Executing 
+[14, 23:20:03] SHOW COLUMNS FROM `deneme`.`democracies`: OK
+[15, 23:20:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`d_id`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[15, 23:20:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`d_id`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[16, 08:03:02] DEALLOCATE PREPARE stmt: Executing 
+[16, 08:03:02] DEALLOCATE PREPARE stmt: OK
+[17, 10:38:49] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[17, 10:38:49] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[18, 10:38:49] SHOW DATABASES: Executing 
+[18, 10:38:49] SHOW DATABASES: OK
+[19, 10:38:51] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[19, 10:38:51] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[20, 10:38:51] SHOW COLUMNS FROM `deneme`.`democracies`: Executing 
+[20, 10:38:51] SHOW COLUMNS FROM `deneme`.`democracies`: OK
+[21, 10:39:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`d_id`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[21, 10:39:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`d_id`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[22, 10:40:00] DEALLOCATE PREPARE stmt: Executing 
+[22, 10:40:00] DEALLOCATE PREPARE stmt: OK
+[23, 10:40:22] DROP TABLE `deneme`.`democracies`: Running...
+[23, 10:40:22] DROP TABLE `deneme`.`democracies`: 0 row(s) affected
+[24, 10:41:26] CREATE TABLE DEMOCRACIES(
+d_id INTEGER auto_increment PRIMARY KEY,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL
+): Running...
+[24, 10:41:26] CREATE TABLE DEMOCRACIES(
+d_id INTEGER auto_increment PRIMARY KEY,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL
+): 0 row(s) affected
+[25, 10:41:35] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[25, 10:41:35] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[26, 10:41:35] SHOW DATABASES: Executing 
+[26, 10:41:35] SHOW DATABASES: OK
+[27, 10:41:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[27, 10:41:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[28, 10:41:36] SHOW COLUMNS FROM `deneme`.`democracies`: Executing 
+[28, 10:41:36] SHOW COLUMNS FROM `deneme`.`democracies`: OK
+[29, 10:42:02] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?)': Executing 
+[29, 10:42:02] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?)': OK
+[30, 10:45:11] DEALLOCATE PREPARE stmt: Executing 
+[30, 10:45:11] DEALLOCATE PREPARE stmt: OK
+[31, 10:52:00] DROP TABLE `deneme`.`dene`: Running...
+[31, 10:52:00] DROP TABLE `deneme`.`dene`: 0 row(s) affected
+[32, 11:00:20] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[32, 11:00:20] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[33, 11:00:20] SHOW DATABASES: Executing 
+[33, 11:00:20] SHOW DATABASES: OK
+[34, 11:00:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[34, 11:00:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[35, 11:00:21] SHOW COLUMNS FROM `deneme`.`democracies`: Executing 
+[35, 11:00:21] SHOW COLUMNS FROM `deneme`.`democracies`: OK
+[1, 02:39:59] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+	population INTEGER,
+	continent VARCHAR(50),
+	PRIMARY KEY (iso_code)
+): Running...
+[1, 02:39:59] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+	population INTEGER,
+	continent VARCHAR(50),
+	PRIMARY KEY (iso_code)
+): 0 row(s) affected
+[2, 02:58:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[2, 02:58:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[3, 02:58:05] SHOW DATABASES: Executing 
+[3, 02:58:05] SHOW DATABASES: OK
+[4, 02:58:07] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[4, 02:58:07] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[5, 02:58:07] SHOW COLUMNS FROM `deneme`.`countries`: Executing 
+[5, 02:58:07] SHOW COLUMNS FROM `deneme`.`countries`: OK
+[6, 02:58:26] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`continent`,`population`) VALUES(?,?,?,?)': Executing 
+[6, 02:58:26] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`continent`,`population`) VALUES(?,?,?,?)': OK
+[7, 02:58:26] DEALLOCATE PREPARE stmt: Executing 
+[7, 02:58:26] DEALLOCATE PREPARE stmt: OK
+[8, 02:58:47] SELECT * FROM deneme.countries
+LIMIT 0, 1000
+: Running...
+[8, 02:58:47] SELECT * FROM deneme.countries
+LIMIT 0, 1000
+: Fetching...
+[8, 02:58:47] SELECT * FROM deneme.countries
+LIMIT 0, 1000
+: 68 row(s) returned
+[9, 03:01:03] DROP TABLE `deneme`.`democracies`: Running...
+[9, 03:01:03] DROP TABLE `deneme`.`democracies`: 0 row(s) affected
+[10, 03:01:11] CREATE TABLE DEMOCRACIES(
+iso_code CHAR(11),
+d_id INTEGER auto_increment,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL,
+PRIMARY KEY(iso_code, d_id),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE,
+FOREIGN KEY (d_id) REFERENCES DEMOCRACIES (d_id) ON DELETE NO ACTION
+): Running...
+[10, 03:01:11] CREATE TABLE DEMOCRACIES(
+iso_code CHAR(11),
+d_id INTEGER auto_increment,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL,
+PRIMARY KEY(iso_code, d_id),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE,
+FOREIGN KEY (d_id) REFERENCES DEMOCRACIES (d_id) ON DELETE NO ACTION
+): Error Code: 1822. Failed to add the foreign key constraint. Missing index for constraint 'democracies_ibfk_2' in the referenced table 'democracies'
+[11, 03:01:30] CREATE TABLE DEMOCRACIES(
+iso_code CHAR(11),
+d_id INTEGER auto_increment,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL,
+PRIMARY KEY(iso_code, d_id),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[11, 03:01:30] CREATE TABLE DEMOCRACIES(
+iso_code CHAR(11),
+d_id INTEGER auto_increment,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL,
+PRIMARY KEY(iso_code, d_id),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Error Code: 1075. Incorrect table definition; there can be only one auto column and it must be defined as a key
+[12, 03:02:46] CREATE TABLE DEMOCRACIES(
+iso_code CHAR(11) NOT NULL,
+d_id INTEGER auto_increment,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL,
+PRIMARY KEY(iso_code, d_id),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[12, 03:02:46] CREATE TABLE DEMOCRACIES(
+iso_code CHAR(11) NOT NULL,
+d_id INTEGER auto_increment,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL,
+PRIMARY KEY(iso_code, d_id),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Error Code: 1075. Incorrect table definition; there can be only one auto column and it must be defined as a key
+[13, 03:03:27] CREATE TABLE DEMOCRACIES(
+iso_code CHAR(11) NOT NULL,
+d_id INTEGER auto_increment,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL,
+PRIMARY KEY(d_id, iso_code),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[13, 03:03:27] CREATE TABLE DEMOCRACIES(
+iso_code CHAR(11) NOT NULL,
+d_id INTEGER auto_increment,
+year_ INTEGER,
+deliberative_dem DECIMAL,
+liberal_dem DECIMAL,
+electoral_dem DECIMAL,
+egalatarian_dem DECIMAL,
+participiary_dem DECIMAL,
+PRIMARY KEY(d_id, iso_code),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[14, 03:04:38] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[14, 03:04:38] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[15, 03:04:38] SHOW DATABASES: Executing 
+[15, 03:04:38] SHOW DATABASES: OK
+[16, 03:04:40] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[16, 03:04:40] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[17, 03:04:40] SHOW COLUMNS FROM `deneme`.`democracies`: Executing 
+[17, 03:04:40] SHOW COLUMNS FROM `deneme`.`democracies`: OK
+[18, 03:05:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[18, 03:05:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalatarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[19, 03:05:50] DEALLOCATE PREPARE stmt: Executing 
+[19, 03:05:50] DEALLOCATE PREPARE stmt: OK
+[20, 03:06:20] SELECT * FROM deneme.democracies
+LIMIT 0, 1000
+: Running...
+[20, 03:06:20] SELECT * FROM deneme.democracies
+LIMIT 0, 1000
+: Fetching...
+[20, 03:06:20] SELECT * FROM deneme.democracies
+LIMIT 0, 1000
+: 1000 row(s) returned
+[21, 03:17:29] CREATE TABLE Bribe_Payers_Indexes(
+iso_code CHAR(11) NOT NULL,
+b_id  INTEGER auto_increment,
+year_ INTEGER,
+bribr_payer_index REAL,
+PRIMARY KEY(b_id, iso_code),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[21, 03:17:29] CREATE TABLE Bribe_Payers_Indexes(
+iso_code CHAR(11) NOT NULL,
+b_id  INTEGER auto_increment,
+year_ INTEGER,
+bribr_payer_index REAL,
+PRIMARY KEY(b_id, iso_code),
+FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[22, 03:20:20] DROP TABLE `deneme`.`students`: Running...
+[22, 03:20:20] DROP TABLE `deneme`.`students`: 0 row(s) affected
+[23, 03:20:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[23, 03:20:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[24, 03:20:31] SHOW DATABASES: Executing 
+[24, 03:20:31] SHOW DATABASES: OK
+[25, 03:20:32] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[25, 03:20:32] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[26, 03:20:32] SHOW COLUMNS FROM `deneme`.`bribe_payers_indexes`: Executing 
+[26, 03:20:32] SHOW COLUMNS FROM `deneme`.`bribe_payers_indexes`: OK
+[27, 03:23:16] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[27, 03:23:16] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[28, 03:23:16] SHOW DATABASES: Executing 
+[28, 03:23:16] SHOW DATABASES: OK
+[29, 03:23:17] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[29, 03:23:17] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[30, 03:23:17] SHOW COLUMNS FROM `deneme`.`bribe_payers_indexes`: Executing 
+[30, 03:23:17] SHOW COLUMNS FROM `deneme`.`bribe_payers_indexes`: OK
+[31, 03:23:32] PREPARE stmt FROM 'INSERT INTO `deneme`.`bribe_payers_indexes` (`iso_code`,`year_`,`bribr_payer_index`) VALUES(?,?,?)': Executing 
+[31, 03:23:32] PREPARE stmt FROM 'INSERT INTO `deneme`.`bribe_payers_indexes` (`iso_code`,`year_`,`bribr_payer_index`) VALUES(?,?,?)': OK
+[32, 03:23:32] DEALLOCATE PREPARE stmt: Executing 
+[32, 03:23:32] DEALLOCATE PREPARE stmt: OK
+[33, 03:23:38] SELECT * FROM deneme.bribe_payers_indexes
+LIMIT 0, 1000
+: Running...
+[33, 03:23:38] SELECT * FROM deneme.bribe_payers_indexes
+LIMIT 0, 1000
+: Fetching...
+[33, 03:23:38] SELECT * FROM deneme.bribe_payers_indexes
+LIMIT 0, 1000
+: 18 row(s) returned
+[34, 04:09:07] CREATE TABLE Schooling_Indexes (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[34, 04:09:07] CREATE TABLE Schooling_Indexes (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[35, 04:09:20] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[35, 04:09:20] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[36, 04:09:20] SHOW DATABASES: Executing 
+[36, 04:09:20] SHOW DATABASES: OK
+[37, 04:09:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[37, 04:09:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[38, 04:09:21] SHOW COLUMNS FROM `deneme`.`schooling_indexes`: Executing 
+[38, 04:09:21] SHOW COLUMNS FROM `deneme`.`schooling_indexes`: OK
+[39, 04:10:22] DROP TABLE `deneme`.`schooling_indexes`: Running...
+[39, 04:10:22] DROP TABLE `deneme`.`schooling_indexes`: 0 row(s) affected
+[40, 04:10:28] CREATE TABLE Schooling_Indexes (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[40, 04:10:28] CREATE TABLE Schooling_Indexes (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[41, 04:10:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[41, 04:10:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[42, 04:10:37] SHOW DATABASES: Executing 
+[42, 04:10:37] SHOW DATABASES: OK
+[43, 04:10:38] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[43, 04:10:38] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[44, 04:10:38] SHOW COLUMNS FROM `deneme`.`schooling_indexes`: Executing 
+[44, 04:10:38] SHOW COLUMNS FROM `deneme`.`schooling_indexes`: OK
+[45, 04:11:03] PREPARE stmt FROM 'INSERT INTO `deneme`.`schooling_indexes` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': Executing 
+[45, 04:11:03] PREPARE stmt FROM 'INSERT INTO `deneme`.`schooling_indexes` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': OK
+[46, 04:11:08] DEALLOCATE PREPARE stmt: Executing 
+[46, 04:11:08] DEALLOCATE PREPARE stmt: OK
+[47, 04:11:14] SELECT * FROM deneme.schooling_indexes
+LIMIT 0, 1000
+: Running...
+[47, 04:11:14] SELECT * FROM deneme.schooling_indexes
+LIMIT 0, 1000
+: Fetching...
+[47, 04:11:14] SELECT * FROM deneme.schooling_indexes
+LIMIT 0, 1000
+: 402 row(s) returned
+[48, 04:18:17] CREATE TABLE HumDev (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[48, 04:18:17] CREATE TABLE HumDev (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[49, 04:18:29] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[49, 04:18:29] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[50, 04:18:29] SHOW DATABASES: Executing 
+[50, 04:18:29] SHOW DATABASES: OK
+[51, 04:18:30] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[51, 04:18:30] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[52, 04:18:30] SHOW COLUMNS FROM `deneme`.`humdev`: Executing 
+[52, 04:18:30] SHOW COLUMNS FROM `deneme`.`humdev`: OK
+[53, 04:18:49] PREPARE stmt FROM 'INSERT INTO `deneme`.`humdev` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': Executing 
+[53, 04:18:49] PREPARE stmt FROM 'INSERT INTO `deneme`.`humdev` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': OK
+[54, 04:18:55] DEALLOCATE PREPARE stmt: Executing 
+[54, 04:18:55] DEALLOCATE PREPARE stmt: OK
+[55, 04:19:01] SELECT * FROM deneme.humdev
+LIMIT 0, 1000
+: Running...
+[55, 04:19:01] SELECT * FROM deneme.humdev
+LIMIT 0, 1000
+: Fetching...
+[55, 04:19:01] SELECT * FROM deneme.humdev
+LIMIT 0, 1000
+: 469 row(s) returned
+[56, 04:21:12] Create Table Corrupt_Percept (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	population INTEGER,
+	year_ INTEGER,
+	bribery_rate DECIMAL,
+    corr_per_index REAL,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[56, 04:21:12] Create Table Corrupt_Percept (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	population INTEGER,
+	year_ INTEGER,
+	bribery_rate DECIMAL,
+    corr_per_index REAL,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Error Code: 1072. Key column 'h_id' doesn't exist in table
+[57, 04:21:21] Create Table Corrupt_Percept (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	population INTEGER,
+	year_ INTEGER,
+	bribery_rate DECIMAL,
+    corr_per_index REAL,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[57, 04:21:21] Create Table Corrupt_Percept (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	population INTEGER,
+	year_ INTEGER,
+	bribery_rate DECIMAL,
+    corr_per_index REAL,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[58, 04:34:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[58, 04:34:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[59, 04:34:34] SHOW DATABASES: Executing 
+[59, 04:34:34] SHOW DATABASES: OK
+[60, 04:34:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[60, 04:34:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[61, 04:34:37] SHOW COLUMNS FROM `deneme`.`corrupt_percept`: Executing 
+[61, 04:34:37] SHOW COLUMNS FROM `deneme`.`corrupt_percept`: OK
+[62, 04:35:20] PREPARE stmt FROM 'INSERT INTO `deneme`.`corrupt_percept` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': Executing 
+[62, 04:35:20] PREPARE stmt FROM 'INSERT INTO `deneme`.`corrupt_percept` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': OK
+[63, 04:35:21] DEALLOCATE PREPARE stmt: Executing 
+[63, 04:35:21] DEALLOCATE PREPARE stmt: OK
+[64, 04:35:25] SELECT * FROM deneme.corrupt_percept
+LIMIT 0, 1000
+: Running...
+[64, 04:35:25] SELECT * FROM deneme.corrupt_percept
+LIMIT 0, 1000
+: Fetching...
+[64, 04:35:25] SELECT * FROM deneme.corrupt_percept
+LIMIT 0, 1000
+: 105 row(s) returned
+[1, 10:08:56] DROP TABLE `deneme`.`bribe_payers_indexes`: Running...
+[1, 10:08:56] DROP TABLE `deneme`.`bribe_payers_indexes`: 0 row(s) affected
+[2, 10:09:01] DROP TABLE `deneme`.`corrupt_percept`: Running...
+[2, 10:09:01] DROP TABLE `deneme`.`corrupt_percept`: 0 row(s) affected
+[3, 10:09:04] DROP TABLE `deneme`.`countries`: Running...
+[3, 10:09:04] DROP TABLE `deneme`.`countries`: Error Code: 3730. Cannot drop table 'countries' referenced by a foreign key constraint 'democracies_ibfk_1' on table 'democracies'.
+[4, 10:09:08] DROP TABLE `deneme`.`countries`: Running...
+[4, 10:09:08] DROP TABLE `deneme`.`countries`: Error Code: 3730. Cannot drop table 'countries' referenced by a foreign key constraint 'democracies_ibfk_1' on table 'democracies'.
+[5, 10:09:13] DROP TABLE `deneme`.`countries`: Running...
+[5, 10:09:13] DROP TABLE `deneme`.`countries`: Error Code: 3730. Cannot drop table 'countries' referenced by a foreign key constraint 'democracies_ibfk_1' on table 'democracies'.
+[6, 10:09:18] DROP TABLE `deneme`.`humdev`: Running...
+[6, 10:09:18] DROP TABLE `deneme`.`humdev`: 0 row(s) affected
+[7, 10:09:22] DROP TABLE `deneme`.`schooling_indexes`: Running...
+[7, 10:09:22] DROP TABLE `deneme`.`schooling_indexes`: 0 row(s) affected
+[8, 10:09:26] DROP TABLE `deneme`.`democracies`: Running...
+[8, 10:09:26] DROP TABLE `deneme`.`democracies`: 0 row(s) affected
+[9, 10:09:31] DROP TABLE `deneme`.`countries`: Running...
+[9, 10:09:31] DROP TABLE `deneme`.`countries`: 0 row(s) affected
+[10, 10:09:45] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+	continent VARCHAR(50),
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): Running...
+[10, 10:09:45] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+	continent VARCHAR(50),
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): 0 row(s) affected
+[11, 10:11:10] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[11, 10:11:10] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[12, 10:11:10] SHOW DATABASES: Executing 
+[12, 10:11:10] SHOW DATABASES: OK
+[13, 10:11:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[13, 10:11:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[14, 10:11:12] SHOW COLUMNS FROM `deneme`.`countries`: Executing 
+[14, 10:11:12] SHOW COLUMNS FROM `deneme`.`countries`: OK
+[15, 10:11:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`continent`,`population`) VALUES(?,?,?,?)': Executing 
+[15, 10:11:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`continent`,`population`) VALUES(?,?,?,?)': OK
+[16, 10:11:30] DEALLOCATE PREPARE stmt: Executing 
+[16, 10:11:30] DEALLOCATE PREPARE stmt: OK
+[17, 10:11:39] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[17, 10:11:39] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[18, 10:11:39] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[18, 10:11:39] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[19, 10:11:39] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[19, 10:11:39] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[20, 10:11:39] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[20, 10:11:39] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[21, 10:11:39] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[21, 10:11:39] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[22, 10:12:04] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[22, 10:12:04] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[23, 10:12:04] SHOW DATABASES: Executing 
+[23, 10:12:04] SHOW DATABASES: OK
+[24, 10:12:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[24, 10:12:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[25, 10:12:05] SHOW COLUMNS FROM `deneme`.`corruppercep_describes`: Executing 
+[25, 10:12:05] SHOW COLUMNS FROM `deneme`.`corruppercep_describes`: OK
+[26, 10:13:09] PREPARE stmt FROM 'INSERT INTO `deneme`.`corruppercep_describes` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': Executing 
+[26, 10:13:09] PREPARE stmt FROM 'INSERT INTO `deneme`.`corruppercep_describes` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': OK
+[27, 10:13:10] DEALLOCATE PREPARE stmt: Executing 
+[27, 10:13:10] DEALLOCATE PREPARE stmt: OK
+[28, 10:13:34] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Running...
+[28, 10:13:34] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Fetching...
+[28, 10:13:34] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: 0 row(s) returned
+[29, 10:13:40] DROP TABLE `deneme`.`bribepayers_has`: Running...
+[29, 10:13:40] DROP TABLE `deneme`.`bribepayers_has`: 0 row(s) affected
+[30, 10:13:43] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Running...
+[30, 10:13:43] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Error Code: 1146. Table 'deneme.bribepayers_has' doesn't exist
+[31, 10:13:56] SELECT * FROM deneme.corruppercep_describes
+LIMIT 0, 1000
+: Running...
+[31, 10:13:56] SELECT * FROM deneme.corruppercep_describes
+LIMIT 0, 1000
+: Fetching...
+[31, 10:13:57] SELECT * FROM deneme.corruppercep_describes
+LIMIT 0, 1000
+: 105 row(s) returned
+[32, 10:14:20] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[32, 10:14:20] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[33, 10:14:20] SHOW DATABASES: Executing 
+[33, 10:14:20] SHOW DATABASES: OK
+[34, 10:14:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[34, 10:14:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[35, 10:14:21] SHOW COLUMNS FROM `deneme`.`humdev_reports`: Executing 
+[35, 10:14:21] SHOW COLUMNS FROM `deneme`.`humdev_reports`: OK
+[36, 10:14:50] PREPARE stmt FROM 'INSERT INTO `deneme`.`humdev_reports` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': Executing 
+[36, 10:14:50] PREPARE stmt FROM 'INSERT INTO `deneme`.`humdev_reports` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': OK
+[37, 10:14:58] DEALLOCATE PREPARE stmt: Executing 
+[37, 10:14:58] DEALLOCATE PREPARE stmt: OK
+[38, 10:15:19] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[38, 10:15:19] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[39, 10:15:19] SHOW DATABASES: Executing 
+[39, 10:15:19] SHOW DATABASES: OK
+[40, 10:15:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[40, 10:15:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[41, 10:15:21] SHOW COLUMNS FROM `deneme`.`schooling_announces`: Executing 
+[41, 10:15:21] SHOW COLUMNS FROM `deneme`.`schooling_announces`: OK
+[42, 10:15:41] PREPARE stmt FROM 'INSERT INTO `deneme`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': Executing 
+[42, 10:15:41] PREPARE stmt FROM 'INSERT INTO `deneme`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': OK
+[43, 10:15:47] DEALLOCATE PREPARE stmt: Executing 
+[43, 10:15:47] DEALLOCATE PREPARE stmt: OK
+[44, 10:16:04] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[44, 10:16:04] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[45, 10:16:04] SHOW DATABASES: Executing 
+[45, 10:16:04] SHOW DATABASES: OK
+[46, 10:16:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[46, 10:16:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[47, 10:16:05] SHOW COLUMNS FROM `deneme`.`corruppercep_describes`: Executing 
+[47, 10:16:05] SHOW COLUMNS FROM `deneme`.`corruppercep_describes`: OK
+[48, 10:16:28] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Running...
+[48, 10:16:28] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Error Code: 1146. Table 'deneme.bribepayers_has' doesn't exist
+[49, 10:16:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[49, 10:16:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[50, 10:16:44] SHOW DATABASES: Executing 
+[50, 10:16:44] SHOW DATABASES: OK
+[51, 10:16:58] DROP TABLE `deneme`.`bribepayers_has`: Running...
+[51, 10:16:58] DROP TABLE `deneme`.`bribepayers_has`: Error Code: 1051. Unknown table 'deneme.bribepayers_has'
+[52, 10:17:08] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[52, 10:17:08] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[53, 10:17:30] DROP TABLE `deneme`.`bribepayers_has`: Running...
+[53, 10:17:30] DROP TABLE `deneme`.`bribepayers_has`: 0 row(s) affected
+[54, 10:17:43] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[54, 10:17:43] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[55, 10:17:43] SHOW DATABASES: Executing 
+[55, 10:17:43] SHOW DATABASES: OK
+[56, 10:17:53] DROP TABLE `deneme`.`bribepayers_has`: Running...
+[56, 10:17:53] DROP TABLE `deneme`.`bribepayers_has`: Error Code: 1051. Unknown table 'deneme.bribepayers_has'
+[57, 10:18:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[57, 10:18:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[58, 10:18:12] SHOW DATABASES: Executing 
+[58, 10:18:12] SHOW DATABASES: OK
+[59, 10:18:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[59, 10:18:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[60, 10:18:15] SHOW COLUMNS FROM `deneme`.`democracies_governedby`: Executing 
+[60, 10:18:15] SHOW COLUMNS FROM `deneme`.`democracies_governedby`: OK
+[61, 10:18:40] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[61, 10:18:40] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[62, 10:19:28] DEALLOCATE PREPARE stmt: Executing 
+[62, 10:19:28] DEALLOCATE PREPARE stmt: OK
+[63, 10:21:56] DROP TABLE `deneme`.`bribepayers_has`: Running...
+[63, 10:21:56] DROP TABLE `deneme`.`bribepayers_has`: Error Code: 1051. Unknown table 'deneme.bribepayers_has'
+[64, 10:22:06] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[64, 10:22:06] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[65, 10:22:08] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[65, 10:22:08] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Error Code: 1050. Table 'bribepayers_has' already exists
+[66, 10:22:27] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[66, 10:22:27] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[67, 10:22:27] SHOW DATABASES: Executing 
+[67, 10:22:27] SHOW DATABASES: OK
+[68, 10:22:30] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[68, 10:22:30] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[69, 10:22:30] SHOW COLUMNS FROM `deneme`.`bribepayers_has`: Executing 
+[69, 10:22:30] SHOW COLUMNS FROM `deneme`.`bribepayers_has`: OK
+[70, 10:22:40] PREPARE stmt FROM 'INSERT INTO `deneme`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': Executing 
+[70, 10:22:40] PREPARE stmt FROM 'INSERT INTO `deneme`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': OK
+[71, 10:22:40] DEALLOCATE PREPARE stmt: Executing 
+[71, 10:22:40] DEALLOCATE PREPARE stmt: OK
+[72, 10:22:45] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Running...
+[72, 10:22:45] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Fetching...
+[72, 10:22:45] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: 18 row(s) returned
+[73, 10:22:54] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Running...
+[73, 10:22:54] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Fetching...
+[73, 10:22:54] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: 18 row(s) returned
+[74, 10:23:02] DROP TABLE `deneme`.`bribepayers_has`: Running...
+[74, 10:23:02] DROP TABLE `deneme`.`bribepayers_has`: 0 row(s) affected
+[75, 10:23:05] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Running...
+[75, 10:23:05] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Error Code: 1146. Table 'deneme.bribepayers_has' doesn't exist
+[76, 10:23:08] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Running...
+[76, 10:23:08] SELECT * FROM deneme.bribepayers_has
+LIMIT 0, 1000
+: Error Code: 1146. Table 'deneme.bribepayers_has' doesn't exist
+[77, 10:23:19] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[77, 10:23:19] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[78, 10:23:39] DROP TABLE `deneme`.`bribepayers_has`: Running...
+[78, 10:23:39] DROP TABLE `deneme`.`bribepayers_has`: 0 row(s) affected
+[79, 10:23:48] DROP TABLE `deneme`.`bribepayers_has`: Running...
+[79, 10:23:48] DROP TABLE `deneme`.`bribepayers_has`: Error Code: 1051. Unknown table 'deneme.bribepayers_has'
+[80, 10:24:07] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[80, 10:24:07] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[81, 10:24:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[81, 10:24:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[82, 10:24:14] SHOW DATABASES: Executing 
+[82, 10:24:14] SHOW DATABASES: OK
+[83, 10:24:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[83, 10:24:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[84, 10:24:15] SHOW COLUMNS FROM `deneme`.`bribepayers_has`: Executing 
+[84, 10:24:15] SHOW COLUMNS FROM `deneme`.`bribepayers_has`: OK
+[85, 10:24:21] PREPARE stmt FROM 'INSERT INTO `deneme`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': Executing 
+[85, 10:24:21] PREPARE stmt FROM 'INSERT INTO `deneme`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': OK
+[86, 10:24:22] DEALLOCATE PREPARE stmt: Executing 
+[86, 10:24:22] DEALLOCATE PREPARE stmt: OK
+[87, 10:50:36] DROP TABLE `deneme`.`schooling_announces`: Running...
+[87, 10:50:36] DROP TABLE `deneme`.`schooling_announces`: 0 row(s) affected
+[88, 10:50:42] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[88, 10:50:42] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[89, 10:50:54] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[89, 10:50:54] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[90, 10:50:54] SHOW DATABASES: Executing 
+[90, 10:50:54] SHOW DATABASES: OK
+[91, 10:51:00] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[91, 10:51:00] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[92, 10:51:00] SHOW COLUMNS FROM `deneme`.`schooling_announces`: Executing 
+[92, 10:51:00] SHOW COLUMNS FROM `deneme`.`schooling_announces`: OK
+[93, 10:51:46] PREPARE stmt FROM 'INSERT INTO `deneme`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': Executing 
+[93, 10:51:46] PREPARE stmt FROM 'INSERT INTO `deneme`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': OK
+[94, 10:52:25] DEALLOCATE PREPARE stmt: Executing 
+[94, 10:52:25] DEALLOCATE PREPARE stmt: OK
+[95, 12:17:31] DROP TABLE `deneme`.`bribepayers_has`: Running...
+[95, 12:17:32] DROP TABLE `deneme`.`bribepayers_has`: 0 row(s) affected
+[96, 12:17:35] DROP TABLE `deneme`.`corruppercep_describes`: Running...
+[96, 12:17:35] DROP TABLE `deneme`.`corruppercep_describes`: 0 row(s) affected
+[97, 12:17:39] DROP TABLE `deneme`.`democracies_governedby`: Running...
+[97, 12:17:39] DROP TABLE `deneme`.`democracies_governedby`: 0 row(s) affected
+[98, 12:17:43] DROP TABLE `deneme`.`humdev_reports`: Running...
+[98, 12:17:43] DROP TABLE `deneme`.`humdev_reports`: 0 row(s) affected
+[99, 12:17:47] DROP TABLE `deneme`.`schooling_announces`: Running...
+[99, 12:17:47] DROP TABLE `deneme`.`schooling_announces`: 0 row(s) affected
+[100, 12:17:51] DROP TABLE `deneme`.`countries`: Running...
+[100, 12:17:51] DROP TABLE `deneme`.`countries`: 0 row(s) affected
+[101, 12:18:31] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): Running...
+[101, 12:18:31] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): 0 row(s) affected
+[102, 12:18:46] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[102, 12:18:46] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[103, 12:18:46] SHOW DATABASES: Executing 
+[103, 12:18:46] SHOW DATABASES: OK
+[104, 12:18:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[104, 12:18:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[105, 12:18:47] SHOW COLUMNS FROM `deneme`.`countries`: Executing 
+[105, 12:18:47] SHOW COLUMNS FROM `deneme`.`countries`: OK
+[106, 12:19:33] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[106, 12:19:33] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[107, 12:19:33] SHOW DATABASES: Executing 
+[107, 12:19:33] SHOW DATABASES: OK
+[108, 12:19:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[108, 12:19:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[109, 12:19:34] SHOW COLUMNS FROM `deneme`.`countries`: Executing 
+[109, 12:19:34] SHOW COLUMNS FROM `deneme`.`countries`: OK
+[110, 12:19:45] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': Executing 
+[110, 12:19:45] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': OK
+[111, 12:20:23] DEALLOCATE PREPARE stmt: Executing 
+[111, 12:20:23] DEALLOCATE PREPARE stmt: OK
+[112, 12:20:32] SELECT * FROM deneme.countries
+LIMIT 0, 1000
+: Running...
+[112, 12:20:32] SELECT * FROM deneme.countries
+LIMIT 0, 1000
+: Fetching...
+[112, 12:20:32] SELECT * FROM deneme.countries
+LIMIT 0, 1000
+: 239 row(s) returned
+[113, 12:21:54] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[113, 12:21:54] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[114, 12:22:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[114, 12:22:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[115, 12:22:11] SHOW DATABASES: Executing 
+[115, 12:22:11] SHOW DATABASES: OK
+[116, 12:22:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[116, 12:22:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[117, 12:22:12] SHOW COLUMNS FROM `deneme`.`democracies_governedby`: Executing 
+[117, 12:22:12] SHOW COLUMNS FROM `deneme`.`democracies_governedby`: OK
+[118, 12:22:51] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[118, 12:22:51] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[119, 12:23:33] DEALLOCATE PREPARE stmt: Executing 
+[119, 12:23:33] DEALLOCATE PREPARE stmt: OK
+[120, 12:25:22] SELECT * FROM deneme.democracies_governedby
+LIMIT 0, 1000
+: Running...
+[120, 12:25:22] SELECT * FROM deneme.democracies_governedby
+LIMIT 0, 1000
+: Fetching...
+[120, 12:25:22] SELECT * FROM deneme.democracies_governedby
+LIMIT 0, 1000
+: 1000 row(s) returned
+[121, 12:42:25] DROP TABLE `deneme`.`democracies_governedby`: Running...
+[121, 12:42:25] DROP TABLE `deneme`.`democracies_governedby`: 0 row(s) affected
+[122, 12:42:29] DROP TABLE `deneme`.`countries`: Running...
+[122, 12:42:29] DROP TABLE `deneme`.`countries`: 0 row(s) affected
+[123, 12:44:29] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): Running...
+[123, 12:44:29] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): 0 row(s) affected
+[124, 12:44:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[124, 12:44:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[125, 12:44:44] SHOW DATABASES: Executing 
+[125, 12:44:44] SHOW DATABASES: OK
+[126, 12:44:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[126, 12:44:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[127, 12:44:45] SHOW COLUMNS FROM `deneme`.`countries`: Executing 
+[127, 12:44:45] SHOW COLUMNS FROM `deneme`.`countries`: OK
+[128, 12:44:58] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': Executing 
+[128, 12:44:58] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': OK
+[129, 12:45:00] DEALLOCATE PREPARE stmt: Executing 
+[129, 12:45:00] DEALLOCATE PREPARE stmt: OK
+[130, 12:47:02] DROP TABLE `deneme`.`countries`: Running...
+[130, 12:47:02] DROP TABLE `deneme`.`countries`: 0 row(s) affected
+[131, 12:47:06] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): Running...
+[131, 12:47:06] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): 0 row(s) affected
+[132, 12:47:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[132, 12:47:14] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[133, 12:47:14] SHOW DATABASES: Executing 
+[133, 12:47:14] SHOW DATABASES: OK
+[134, 12:47:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[134, 12:47:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[135, 12:47:15] SHOW COLUMNS FROM `deneme`.`countries`: Executing 
+[135, 12:47:15] SHOW COLUMNS FROM `deneme`.`countries`: OK
+[136, 12:47:25] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': Executing 
+[136, 12:47:25] PREPARE stmt FROM 'INSERT INTO `deneme`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': OK
+[137, 12:47:27] DEALLOCATE PREPARE stmt: Executing 
+[137, 12:47:27] DEALLOCATE PREPARE stmt: OK
+[138, 12:47:44] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[138, 12:47:44] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[139, 12:47:59] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[139, 12:47:59] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[140, 12:47:59] SHOW DATABASES: Executing 
+[140, 12:47:59] SHOW DATABASES: OK
+[141, 12:48:10] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[141, 12:48:10] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[142, 12:48:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[142, 12:48:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[143, 12:48:21] SHOW DATABASES: Executing 
+[143, 12:48:21] SHOW DATABASES: OK
+[144, 12:48:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[144, 12:48:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[145, 12:48:22] SHOW COLUMNS FROM `deneme`.`bribepayers_has`: Executing 
+[145, 12:48:22] SHOW COLUMNS FROM `deneme`.`bribepayers_has`: OK
+[146, 12:48:31] PREPARE stmt FROM 'INSERT INTO `deneme`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': Executing 
+[146, 12:48:31] PREPARE stmt FROM 'INSERT INTO `deneme`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': OK
+[147, 12:48:32] DEALLOCATE PREPARE stmt: Executing 
+[147, 12:48:32] DEALLOCATE PREPARE stmt: OK
+[148, 12:48:43] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[148, 12:48:43] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[149, 12:48:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[149, 12:48:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[150, 12:48:55] SHOW DATABASES: Executing 
+[150, 12:48:55] SHOW DATABASES: OK
+[151, 12:48:56] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[151, 12:48:56] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[152, 12:48:56] SHOW COLUMNS FROM `deneme`.`schooling_announces`: Executing 
+[152, 12:48:56] SHOW COLUMNS FROM `deneme`.`schooling_announces`: OK
+[153, 12:49:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': Executing 
+[153, 12:49:30] PREPARE stmt FROM 'INSERT INTO `deneme`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': OK
+[154, 12:49:39] DEALLOCATE PREPARE stmt: Executing 
+[154, 12:49:39] DEALLOCATE PREPARE stmt: OK
+[155, 12:49:55] SELECT * FROM deneme.schooling_announces
+LIMIT 0, 1000
+: Running...
+[155, 12:49:55] SELECT * FROM deneme.schooling_announces
+LIMIT 0, 1000
+: Fetching...
+[155, 12:49:55] SELECT * FROM deneme.schooling_announces
+LIMIT 0, 1000
+: 1000 row(s) returned
+[156, 12:50:09] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[156, 12:50:09] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[157, 12:50:41] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[157, 12:50:41] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[158, 12:50:41] SHOW DATABASES: Executing 
+[158, 12:50:41] SHOW DATABASES: OK
+[159, 12:50:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[159, 12:50:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[160, 12:50:42] SHOW COLUMNS FROM `deneme`.`humdev_reports`: Executing 
+[160, 12:50:42] SHOW COLUMNS FROM `deneme`.`humdev_reports`: OK
+[161, 12:50:55] PREPARE stmt FROM 'INSERT INTO `deneme`.`humdev_reports` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': Executing 
+[161, 12:50:55] PREPARE stmt FROM 'INSERT INTO `deneme`.`humdev_reports` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': OK
+[162, 12:51:06] DEALLOCATE PREPARE stmt: Executing 
+[162, 12:51:06] DEALLOCATE PREPARE stmt: OK
+[163, 12:51:22] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[163, 12:51:22] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[164, 12:51:35] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[164, 12:51:35] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[165, 12:51:35] SHOW DATABASES: Executing 
+[165, 12:51:36] SHOW DATABASES: OK
+[166, 12:51:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[166, 12:51:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[167, 12:51:36] SHOW COLUMNS FROM `deneme`.`corruppercep_describes`: Executing 
+[167, 12:51:36] SHOW COLUMNS FROM `deneme`.`corruppercep_describes`: OK
+[168, 12:52:07] PREPARE stmt FROM 'INSERT INTO `deneme`.`corruppercep_describes` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': Executing 
+[168, 12:52:07] PREPARE stmt FROM 'INSERT INTO `deneme`.`corruppercep_describes` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': OK
+[169, 12:52:09] DEALLOCATE PREPARE stmt: Executing 
+[169, 12:52:09] DEALLOCATE PREPARE stmt: OK
+[170, 12:52:17] SELECT * FROM deneme.democracies_governedby
+LIMIT 0, 1000
+: Running...
+[170, 12:52:17] SELECT * FROM deneme.democracies_governedby
+LIMIT 0, 1000
+: Fetching...
+[170, 12:52:17] SELECT * FROM deneme.democracies_governedby
+LIMIT 0, 1000
+: 0 row(s) returned
+[171, 12:52:28] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[171, 12:52:29] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[172, 12:52:29] SHOW DATABASES: Executing 
+[172, 12:52:29] SHOW DATABASES: OK
+[173, 12:52:29] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[173, 12:52:29] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[174, 12:52:30] SHOW COLUMNS FROM `deneme`.`democracies_governedby`: Executing 
+[174, 12:52:30] SHOW COLUMNS FROM `deneme`.`democracies_governedby`: OK
+[175, 12:53:25] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[175, 12:53:25] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[176, 12:54:15] DEALLOCATE PREPARE stmt: Executing 
+[176, 12:54:15] DEALLOCATE PREPARE stmt: OK
+[177, 12:57:14] DROP TABLE `deneme`.`democracies_governedby`: Running...
+[177, 12:57:14] DROP TABLE `deneme`.`democracies_governedby`: 0 row(s) affected
+[178, 12:57:20] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[178, 12:57:20] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[179, 12:57:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[179, 12:57:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[180, 12:57:31] SHOW DATABASES: Executing 
+[180, 12:57:31] SHOW DATABASES: OK
+[181, 12:57:32] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[181, 12:57:32] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[182, 12:57:32] SHOW COLUMNS FROM `deneme`.`democracies_governedby`: Executing 
+[182, 12:57:32] SHOW COLUMNS FROM `deneme`.`democracies_governedby`: OK
+[183, 12:57:53] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[183, 12:57:53] PREPARE stmt FROM 'INSERT INTO `deneme`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[184, 12:58:27] DEALLOCATE PREPARE stmt: Executing 
+[184, 12:58:27] DEALLOCATE PREPARE stmt: OK
+[185, 12:59:57] Apply changes to cs306_project: Applying object changes ...
+[185, 13:00:00] Applying changes to cs306_project...: 
+[185, 13:00:00] : Changes applied to cs306_project
+[185, 13:00:01] Apply changes to cs306_project: Changes applied
+[186, 13:00:59] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): Running...
+[186, 13:00:59] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): 0 row(s) affected
+[187, 13:01:31] DROP DATABASE `deneme`: Running...
+[187, 13:01:31] DROP DATABASE `deneme`: 6 row(s) affected
+[188, 13:01:40] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[188, 13:01:40] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[189, 13:01:40] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[189, 13:01:40] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[190, 13:01:40] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[190, 13:01:40] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[191, 13:01:40] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[191, 13:01:40] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[192, 13:01:40] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[192, 13:01:40] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[193, 13:03:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[193, 13:03:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[194, 13:03:11] SHOW DATABASES: Executing 
+[194, 13:03:11] SHOW DATABASES: OK
+[195, 13:03:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[195, 13:03:12] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[196, 13:03:12] SHOW COLUMNS FROM `cs306_project`.`countries`: Executing 
+[196, 13:03:12] SHOW COLUMNS FROM `cs306_project`.`countries`: OK
+[197, 13:03:53] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': Executing 
+[197, 13:03:53] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': OK
+[198, 13:03:54] DEALLOCATE PREPARE stmt: Executing 
+[198, 13:03:54] DEALLOCATE PREPARE stmt: OK
+[199, 13:58:25] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[199, 13:58:25] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[200, 13:58:25] SHOW DATABASES: Executing 
+[200, 13:58:25] SHOW DATABASES: OK
+[201, 13:58:26] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[201, 13:58:26] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[202, 13:58:26] SHOW COLUMNS FROM `cs306_project`.`democracies_governedby`: Executing 
+[202, 13:58:26] SHOW COLUMNS FROM `cs306_project`.`democracies_governedby`: OK
+[203, 13:58:49] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[203, 13:58:49] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[204, 13:59:26] DEALLOCATE PREPARE stmt: Executing 
+[204, 13:59:26] DEALLOCATE PREPARE stmt: OK
+[205, 14:01:21] DROP TABLE `cs306_project`.`corruppercep_describes`: Running...
+[205, 14:01:21] DROP TABLE `cs306_project`.`corruppercep_describes`: 0 row(s) affected
+[206, 14:01:24] DROP TABLE `cs306_project`.`bribepayers_has`: Running...
+[206, 14:01:24] DROP TABLE `cs306_project`.`bribepayers_has`: 0 row(s) affected
+[207, 14:01:27] DROP TABLE `cs306_project`.`democracies_governedby`: Running...
+[207, 14:01:27] DROP TABLE `cs306_project`.`democracies_governedby`: 0 row(s) affected
+[208, 14:01:30] DROP TABLE `cs306_project`.`humdev_reports`: Running...
+[208, 14:01:30] DROP TABLE `cs306_project`.`humdev_reports`: 0 row(s) affected
+[209, 14:01:33] DROP TABLE `cs306_project`.`schooling_announces`: Running...
+[209, 14:01:33] DROP TABLE `cs306_project`.`schooling_announces`: 0 row(s) affected
+[210, 14:01:37] DROP TABLE `cs306_project`.`countries`: Running...
+[210, 14:01:37] DROP TABLE `cs306_project`.`countries`: 0 row(s) affected
+[211, 14:01:45] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): Running...
+[211, 14:01:45] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): 0 row(s) affected
+[212, 14:02:40] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[212, 14:02:40] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[213, 14:02:40] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[213, 14:02:40] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[214, 14:02:40] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[214, 14:02:40] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[215, 14:02:40] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[215, 14:02:40] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[216, 14:02:40] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[216, 14:02:40] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[217, 14:02:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[217, 14:02:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[218, 14:02:55] SHOW DATABASES: Executing 
+[218, 14:02:55] SHOW DATABASES: OK
+[219, 14:02:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[219, 14:02:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[220, 14:02:55] SHOW COLUMNS FROM `cs306_project`.`countries`: Executing 
+[220, 14:02:55] SHOW COLUMNS FROM `cs306_project`.`countries`: OK
+[221, 14:03:07] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': Executing 
+[221, 14:03:07] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': OK
+[222, 14:03:09] DEALLOCATE PREPARE stmt: Executing 
+[222, 14:03:09] DEALLOCATE PREPARE stmt: OK
+[223, 14:03:20] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[223, 14:03:20] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[224, 14:03:20] SHOW DATABASES: Executing 
+[224, 14:03:20] SHOW DATABASES: OK
+[225, 14:03:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[225, 14:03:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[226, 14:03:23] SHOW COLUMNS FROM `cs306_project`.`bribepayers_has`: Executing 
+[226, 14:03:23] SHOW COLUMNS FROM `cs306_project`.`bribepayers_has`: OK
+[227, 14:03:35] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': Executing 
+[227, 14:03:35] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': OK
+[228, 14:03:35] DEALLOCATE PREPARE stmt: Executing 
+[228, 14:03:35] DEALLOCATE PREPARE stmt: OK
+[229, 14:03:51] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[229, 14:03:51] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[230, 14:03:51] SHOW DATABASES: Executing 
+[230, 14:03:51] SHOW DATABASES: OK
+[231, 14:03:53] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[231, 14:03:53] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[232, 14:03:53] SHOW COLUMNS FROM `cs306_project`.`corruppercep_describes`: Executing 
+[232, 14:03:53] SHOW COLUMNS FROM `cs306_project`.`corruppercep_describes`: OK
+[233, 14:04:25] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`corruppercep_describes` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': Executing 
+[233, 14:04:25] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`corruppercep_describes` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': OK
+[234, 14:04:26] DEALLOCATE PREPARE stmt: Executing 
+[234, 14:04:26] DEALLOCATE PREPARE stmt: OK
+[235, 14:04:39] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[235, 14:04:39] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[236, 14:04:39] SHOW DATABASES: Executing 
+[236, 14:04:39] SHOW DATABASES: OK
+[237, 14:04:39] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[237, 14:04:39] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[238, 14:04:40] SHOW COLUMNS FROM `cs306_project`.`democracies_governedby`: Executing 
+[238, 14:04:40] SHOW COLUMNS FROM `cs306_project`.`democracies_governedby`: OK
+[239, 14:05:01] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[239, 14:05:01] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[240, 14:05:30] DEALLOCATE PREPARE stmt: Executing 
+[240, 14:05:30] DEALLOCATE PREPARE stmt: OK
+[241, 14:05:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[241, 14:05:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[242, 14:05:42] SHOW DATABASES: Executing 
+[242, 14:05:42] SHOW DATABASES: OK
+[243, 14:05:43] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[243, 14:05:43] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[244, 14:05:43] SHOW COLUMNS FROM `cs306_project`.`humdev_reports`: Executing 
+[244, 14:05:43] SHOW COLUMNS FROM `cs306_project`.`humdev_reports`: OK
+[245, 14:06:28] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`humdev_reports` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': Executing 
+[245, 14:06:28] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`humdev_reports` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': OK
+[246, 14:06:34] DEALLOCATE PREPARE stmt: Executing 
+[246, 14:06:34] DEALLOCATE PREPARE stmt: OK
+[247, 14:07:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[247, 14:07:22] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[248, 14:07:22] SHOW DATABASES: Executing 
+[248, 14:07:22] SHOW DATABASES: OK
+[249, 14:07:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[249, 14:07:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[250, 14:07:24] SHOW COLUMNS FROM `cs306_project`.`schooling_announces`: Executing 
+[250, 14:07:24] SHOW COLUMNS FROM `cs306_project`.`schooling_announces`: OK
+[251, 14:07:49] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': Executing 
+[251, 14:07:49] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': OK
+[252, 14:07:55] DEALLOCATE PREPARE stmt: Executing 
+[252, 14:07:55] DEALLOCATE PREPARE stmt: OK
+[1, 16:56:10] SELECT * FROM cs306_project.bribepayers_has
+LIMIT 0, 1000
+: Running...
+[1, 16:56:10] SELECT * FROM cs306_project.bribepayers_has
+LIMIT 0, 1000
+: Fetching...
+[1, 16:56:10] SELECT * FROM cs306_project.bribepayers_has
+LIMIT 0, 1000
+: 44 row(s) returned
+[2, 16:56:13] SELECT * FROM cs306_project.corruppercep_describes
+LIMIT 0, 1000
+: Running...
+[2, 16:56:13] SELECT * FROM cs306_project.corruppercep_describes
+LIMIT 0, 1000
+: Fetching...
+[2, 16:56:13] SELECT * FROM cs306_project.corruppercep_describes
+LIMIT 0, 1000
+: 200 row(s) returned
+[3, 16:56:16] SELECT * FROM cs306_project.countries
+LIMIT 0, 1000
+: Running...
+[3, 16:56:16] SELECT * FROM cs306_project.countries
+LIMIT 0, 1000
+: Fetching...
+[3, 16:56:16] SELECT * FROM cs306_project.countries
+LIMIT 0, 1000
+: 236 row(s) returned
+[4, 16:56:18] SELECT * FROM cs306_project.democracies_governedby
+LIMIT 0, 1000
+: Running...
+[4, 16:56:18] SELECT * FROM cs306_project.democracies_governedby
+LIMIT 0, 1000
+: Fetching...
+[4, 16:56:18] SELECT * FROM cs306_project.democracies_governedby
+LIMIT 0, 1000
+: 1000 row(s) returned
+[5, 16:56:21] SELECT * FROM cs306_project.humdev_reports
+LIMIT 0, 1000
+: Running...
+[5, 16:56:21] SELECT * FROM cs306_project.humdev_reports
+LIMIT 0, 1000
+: Fetching...
+[5, 16:56:21] SELECT * FROM cs306_project.humdev_reports
+LIMIT 0, 1000
+: 1000 row(s) returned
+[1, 18:00:26] DROP TABLE `cs306_project`.`bribepayers_has`: Running...
+[1, 18:00:26] DROP TABLE `cs306_project`.`bribepayers_has`: 0 row(s) affected
+[2, 18:00:30] DROP TABLE `cs306_project`.`corruppercep_describes`: Running...
+[2, 18:00:30] DROP TABLE `cs306_project`.`corruppercep_describes`: 0 row(s) affected
+[3, 18:00:33] DROP TABLE `cs306_project`.`democracies_governedby`: Running...
+[3, 18:00:33] DROP TABLE `cs306_project`.`democracies_governedby`: 0 row(s) affected
+[4, 18:00:36] DROP TABLE `cs306_project`.`humdev_reports`: Running...
+[4, 18:00:36] DROP TABLE `cs306_project`.`humdev_reports`: 0 row(s) affected
+[5, 18:00:39] DROP TABLE `cs306_project`.`schooling_announces`: Running...
+[5, 18:00:39] DROP TABLE `cs306_project`.`schooling_announces`: 0 row(s) affected
+[6, 18:00:57] DROP TABLE `cs306_project`.`countries`: Running...
+[6, 18:00:57] DROP TABLE `cs306_project`.`countries`: 0 row(s) affected
+[7, 18:01:22] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): Running...
+[7, 18:01:22] CREATE TABLE Countries (
+	iso_code CHAR(11),
+   	name VARCHAR(50),
+    year_ INTEGER,
+    population INTEGER,
+	PRIMARY KEY (iso_code)
+): 0 row(s) affected
+[8, 18:01:22] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[8, 18:01:22] CREATE TABLE Democracies_Governedby (
+	iso_code CHAR(11) NOT NULL,
+	d_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	deliberative_dem DECIMAL,
+	liberal_dem DECIMAL,
+	electoral_dem DECIMAL,
+	egalitarian_dem DECIMAL,
+	participiary_dem DECIMAL,
+	PRIMARY KEY(d_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[9, 18:01:22] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[9, 18:01:22] CREATE TABLE BribePayers_Has (
+	iso_code CHAR(11) NOT NULL,
+	b_id  INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+	bribe_payers_index REAL,
+	PRIMARY KEY(b_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[10, 18:01:22] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[10, 18:01:22] CREATE TABLE Schooling_Announces (
+	iso_code CHAR(11) NOT NULL,
+	s_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    schooling_index REAL,
+	population INTEGER,
+    PRIMARY KEY(s_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[11, 18:01:22] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[11, 18:01:22] CREATE TABLE HumDev_Reports (
+	iso_code CHAR(11) NOT NULL,
+	h_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    hum_dev_index REAL,
+	population INTEGER,
+    PRIMARY KEY(h_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[12, 18:01:22] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): Running...
+[12, 18:01:22] CREATE TABLE CorrupPercep_Describes (
+	iso_code CHAR(11) NOT NULL,
+	c_id INTEGER AUTO_INCREMENT,
+	year_ INTEGER,
+    corr_per_index REAL,
+	bribery_rate DECIMAL,
+    population INTEGER,
+    PRIMARY KEY(c_id, iso_code),
+	FOREIGN KEY (iso_code) REFERENCES Countries (iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[13, 18:01:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[13, 18:01:55] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[14, 18:01:55] SHOW DATABASES: Executing 
+[14, 18:01:55] SHOW DATABASES: OK
+[15, 18:01:56] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[15, 18:01:56] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[16, 18:01:56] SHOW COLUMNS FROM `cs306_project`.`countries`: Executing 
+[16, 18:01:56] SHOW COLUMNS FROM `cs306_project`.`countries`: OK
+[17, 18:02:07] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': Executing 
+[17, 18:02:07] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`countries` (`name`,`iso_code`,`year_`,`population`) VALUES(?,?,?,?)': OK
+[18, 18:02:08] DEALLOCATE PREPARE stmt: Executing 
+[18, 18:02:08] DEALLOCATE PREPARE stmt: OK
+[19, 18:02:27] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[19, 18:02:27] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[20, 18:02:27] SHOW DATABASES: Executing 
+[20, 18:02:27] SHOW DATABASES: OK
+[21, 18:02:28] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[21, 18:02:28] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[22, 18:02:28] SHOW COLUMNS FROM `cs306_project`.`bribepayers_has`: Executing 
+[22, 18:02:28] SHOW COLUMNS FROM `cs306_project`.`bribepayers_has`: OK
+[23, 18:02:37] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': Executing 
+[23, 18:02:37] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`bribepayers_has` (`iso_code`,`year_`,`bribe_payers_index`) VALUES(?,?,?)': OK
+[24, 18:02:37] DEALLOCATE PREPARE stmt: Executing 
+[24, 18:02:37] DEALLOCATE PREPARE stmt: OK
+[25, 18:02:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[25, 18:02:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[26, 18:02:44] SHOW DATABASES: Executing 
+[26, 18:02:44] SHOW DATABASES: OK
+[27, 18:02:56] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[27, 18:02:56] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[28, 18:02:57] SHOW DATABASES: Executing 
+[28, 18:02:57] SHOW DATABASES: OK
+[29, 18:02:57] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[29, 18:02:57] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[30, 18:02:57] SHOW COLUMNS FROM `cs306_project`.`corruppercep_describes`: Executing 
+[30, 18:02:57] SHOW COLUMNS FROM `cs306_project`.`corruppercep_describes`: OK
+[31, 18:03:22] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`corruppercep_describes` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': Executing 
+[31, 18:03:22] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`corruppercep_describes` (`iso_code`,`year_`,`corr_per_index`,`bribery_rate`,`population`) VALUES(?,?,?,?,?)': OK
+[32, 18:03:23] DEALLOCATE PREPARE stmt: Executing 
+[32, 18:03:23] DEALLOCATE PREPARE stmt: OK
+[33, 18:03:43] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[33, 18:03:43] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[34, 18:03:43] SHOW DATABASES: Executing 
+[34, 18:03:43] SHOW DATABASES: OK
+[35, 18:03:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[35, 18:03:44] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[36, 18:03:44] SHOW COLUMNS FROM `cs306_project`.`democracies_governedby`: Executing 
+[36, 18:03:44] SHOW COLUMNS FROM `cs306_project`.`democracies_governedby`: OK
+[37, 18:04:10] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': Executing 
+[37, 18:04:10] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`democracies_governedby` (`iso_code`,`year_`,`electoral_dem`,`liberal_dem`,`participiary_dem`,`deliberative_dem`,`egalitarian_dem`) VALUES(?,?,?,?,?,?,?)': OK
+[38, 18:04:31] DEALLOCATE PREPARE stmt: Executing 
+[38, 18:04:31] DEALLOCATE PREPARE stmt: OK
+[39, 18:04:46] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[39, 18:04:46] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[40, 18:04:46] SHOW DATABASES: Executing 
+[40, 18:04:46] SHOW DATABASES: OK
+[41, 18:04:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[41, 18:04:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[42, 18:04:48] SHOW COLUMNS FROM `cs306_project`.`humdev_reports`: Executing 
+[42, 18:04:48] SHOW COLUMNS FROM `cs306_project`.`humdev_reports`: OK
+[43, 18:05:06] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`humdev_reports` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': Executing 
+[43, 18:05:06] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`humdev_reports` (`iso_code`,`year_`,`hum_dev_index`,`population`) VALUES(?,?,?,?)': OK
+[44, 18:05:11] DEALLOCATE PREPARE stmt: Executing 
+[44, 18:05:11] DEALLOCATE PREPARE stmt: OK
+[45, 18:05:41] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[45, 18:05:41] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[46, 18:05:41] SHOW DATABASES: Executing 
+[46, 18:05:41] SHOW DATABASES: OK
+[47, 18:05:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[47, 18:05:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[48, 18:05:42] SHOW COLUMNS FROM `cs306_project`.`schooling_announces`: Executing 
+[48, 18:05:42] SHOW COLUMNS FROM `cs306_project`.`schooling_announces`: OK
+[49, 18:05:59] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': Executing 
+[49, 18:05:59] PREPARE stmt FROM 'INSERT INTO `cs306_project`.`schooling_announces` (`iso_code`,`year_`,`schooling_index`,`population`) VALUES(?,?,?,?)': OK
+[50, 18:06:03] DEALLOCATE PREPARE stmt: Executing 
+[50, 18:06:03] DEALLOCATE PREPARE stmt: OK
