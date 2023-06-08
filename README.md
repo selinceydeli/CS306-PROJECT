@@ -1,4 +1,4 @@
-# CS306-PROJECT
+# CS306_Database_Systems_Project
 Term Project done for CS306 Database Systems Course in Sabancı University Spring 2023
 
 
